@@ -1,0 +1,6 @@
+Github URL https://github.com/oyamaAiit/kadai4
+Travis CI URL https://travis-ci.org/github/oyamaAiit/kadai4
+
+実行方法：bash kadai4.sh  任意の自然数1 任意の自然数2
+テスト方法:bash kadai4check.sh
+
