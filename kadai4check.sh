@@ -1,20 +1,22 @@
 #!/bin/sh
 
 #テスト内容
+tmp=/kadai4/kadai.sh
 
-./kadai4.sh 3
+
+bash kadai4.sh 3
 #自然数の指定が一つだけなのでエラー
-./kadai4.sh test 50
+bash kadai4.sh test 50
 #一つ目の自然数が文字なのでエラー
-./kadai4.sh 20 test
+bash kadai4.sh 20 test
 #二つ目の自然数が文字なのでエラー
-./kadai4.sh 465 360
+bash kadai4.sh 465 360
 #最大公約数15
-./kadai4.sh 0 5
+bash kadai4.sh 0 5
 #最大公約数0
-./kadai4.sh 49 63
+bash kadai4.sh 49 63
 #最大公約数7
-./kadai4.sh 15000 35000
+bash kadai4.sh 15000 30000
 #最大公約数15000
 
 #テスト終了

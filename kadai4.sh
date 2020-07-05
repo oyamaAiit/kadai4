@@ -12,7 +12,7 @@ else
 fi
 
 if echo "$2" | grep -q "^[0-9]\+$";then
-	echo "二つ目の自然数は$2"
+	echo "2つ目の自然数は$2"
 else
 	echo "Error:2つ目の自然数エラー…自然数を指定してください。"
 	exit
