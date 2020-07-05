@@ -1,9 +1,6 @@
 #!/bin/sh
 
 #テスト内容
-tmp=/kadai4/kadai.sh
-
-
 bash kadai4.sh 3
 #自然数の指定が一つだけなのでエラー
 bash kadai4.sh test 50
