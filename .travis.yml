@@ -1,4 +1,4 @@
 language: bash
 script :
         - echo Travis CI test in .travis.yml
-        - bash kadai4check.sh
+        - ./kadai4check.sh
